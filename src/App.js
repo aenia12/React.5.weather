@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
+import Weather from "./Weather";
 import "./App.css";
 
 function App() {
-  return <div className="App">Weather App</div>;
+  return <div className="App"><Weather /></div>;
 }
 
 export default App;
